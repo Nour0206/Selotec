@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="stylesheet" href="acceuil.css">
+  <title>Portfolio</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+  <!-- Produit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&family=Rubik:wght@500&display=swap"
+    rel="stylesheet">
+
+  <script src="acceuil.js"></script>
+</head>
+
+<body>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active item pt-3 pb-3" aria-current="page" href="#">Acceuil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active item pt-3 pb-3" aria-current="page" href="#" id="srvPg"
+              onclick="navigate(event) ">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active item pt-3 pb-3" aria-current="page" href="#" id="prodPg"
+              onclick="navigate(event) ">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active item pt-3 pb-3" aria-current="page" href="#" id="ctct"
+              onclick="navigate(event) ">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--pictures-->   
+<div class="headservice">
+  <img  src="assets/header.jpg" class="hero-img w-100 ">
+</div>
+<!--Endpicures-->
+  <!--header
+  <div class="header">
+    <div class="container text-center">
+        <div class="selo-info">
+          <h1 class=" pub  lead  mt-4"> SELOtec</h1>
+          <h3 class="type lead mt-4">Installation et intégration de matériel de sécurité</h3>
+          <p class="type lead mt-4 ">Notre entreprise est spécialisée dans l'installation et l'intégration de matériel
+            de sécurité. Nous proposons des solutions complètes et personnalisées pour répondre aux besoins de nos
+            clients en matière de sécurité. Que ce soit pour des entreprises, des institutions publiques, des
+            infrastructures critiques ou des particuliers, notre objectif est de fournir des systèmes de sécurité
+            fiables et performants.</p>
+        </div>
+    </div>
+  </div>
+-->
+
+
+
+  <!--Services-->
+
+  <div class="titre">
+    <h1>Nos services</h1>
+  </div>
+  <div class="services mx-auto">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+        <div class="card">
+          <img src="./assets/conseil.jpg" class="card-img-top" alt="...">
+       
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+        <div class="card">
+          <img src="./assets/instalation.jpg" class="card-img-top" alt="...">
+         
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+        <div class="card">
+          <img src="./assets/integration.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+        <div class="card">
+          <img src="./assets/formation.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <!--    EndServices-->
+    <!--Nos Produits-->
+    <div class="titre">
+
+    </div>
+
+    <!--EndProduits-->
+
+    <!--caroosel-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/car1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/car2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/car3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/car4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/car5.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Endcaroosel-->
+
+    <!--Produits-->
+    <div class="produit" id="Produit">
+      <div class="produit_a_la_une">
+        <!--<h2 class="titre2">Produits à la une</h2>-->
+        <div class="produit_a_la_une_images">
+          <ul id="productList">
+            <li>
+              <img src="./assets/car1.jpg" alt="conf">
+              <h3 id="tal" onclick="navigate(event)" >TALKIE-WALKIE</h3>
+            </li>
+            <li>
+              <img src="./assets/Prod2.jpg" alt="conf">
+              <h3 id="camera" onclick="navigate(event)" >VIDEO-SURVEILLANCE</h3>
+
+            </li>
+            <li>
+              <img src="./assets/Prod3.jpg" alt="conf">
+              <h3 id="anti" onclick="navigate(event)" >ANTI-INTRUSION</h3>
+            </li>
+            <li>
+              <img src="./assets/Prod4.jpg" alt="conf">
+              <h3  id="surveillance" onclick="navigate(event)">UNITE DE SURVEILLANCE MOBILE</h3>
+
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--EndProduits-->
+
+
+    <!--produitsUne-->
+    <div class="produitUne" id="Produit">
+      <div class="produit_a_la_une">
+        <h2 class="titre2">Produits à la une</h2>
+        <div class="produit_a_la_une_images">
+          <ul id="productList">
+            <li class="popProdCont">
+              <img src="./assets/une1.jpg" alt="conf">
+              <p onclick="produits(event) ">PNC360S</p>
+            </li>
+            <li class="popProdCont">
+              <img src="./assets/une2.jpg" alt="conf">
+              <p onclick="produits(event) ">PNC460</p>
+
+            </li>
+            <li class="popProdCont">
+              <img src="./assets/une3.jpg" alt="conf">
+              <p onclick="produits(event) ">PNC560</p>
+            </li>
+            <li class="popProdCont">
+              <img src="./assets/une4.jpg" alt="conf">
+              <p onclick="produits(event) ">MNC360</p>
+
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--EndproduitsUne-->
+
+
+    <!--NotsPartenaires-->
+    <div class="separator"></div>
+    <div class="part">
+      <h2>NOS PARTENAIRES</h2>
+      <div class="partenaires">
+        <img src="./assets/hyteraa.png" />
+        <img src="./assets/alhua.png" />
+        <img src="./assets/ajaxx.png" />
+      </div>
+    </div>
+
+    <!--QuiNousOntFaisConfiance
+          <div class="vertiSeperator"></div>
+          <div class="Conf">
+          <p>ILS NOUS ONT FAIT CONFIANCE</p>
+          <div class="confiance">
+            <img src="./assets/carrefour.png" />
+            <img src="./assets/monprix.png" />
+            <img src="./assets/geant.png" />
+            <img src="./assets/leader.png" />
+            <img src="./assets/atlas.png" />
+          </div>
+         </div>
+         -->
+
+
+<div class="separator">
+  <br>
+   <br>
+<h1></h1>
+</div>
+    <div class="nous-confiance">
+      <h2 class="titre2">Ils nous ont fait confiance ...</h2>
+      <div class="nous-confiance-images logos">
+        <ul class="logos-slide">
+          <li>
+            <a href="#">
+              <img src="./assets/carrefour.png" alt="conf">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/monprix.png" alt="conf">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/geant.png" alt="conf">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/leader.png" alt="conf">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/atlas.png" alt="conf">
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="confiance-info">
+        <p>
+          Nous serons ravis de vous proposer des solutions adaptées à votre entreprise
+        </p>
+      </div>
+    </div>
+
+
+
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="footer-logo">
+        <img src="./assets/logo.jpg" alt="LOGO">
+      </div>
+      <div class="footer-info">
+        <h3>SELOtec</h3>
+        <p>Adresse : Bloc D 2ème étage, Colisée Soula El Manar, Tunis</p>
+        <p>Email : sales@selotec.com</p>
+        <p>Facebook : @SELOtecSECURITE</p>
+        <p>Tél. : (+216) 98 411 269 / (+216) 27 666 672</p>
+      </div>
+    </footer>
+    <!--ENDfooter-->
+
+
+
+    <script>
+      var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>

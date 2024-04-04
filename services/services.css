@@ -1,0 +1,137 @@
+/**********************Navbar**********************/
+.navbar {
+  background-color: #0E0F19;
+}
+
+.item {
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-right: 30px;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px white;
+}
+.item:hover {
+  color: #ef910f !important;
+}
+
+/**********************services**********************/
+.titre {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.titre h1 {
+  text-align: center;
+}
+
+.services {
+  padding-left: 50px;
+  padding: 50px;
+}
+
+/**********************competances**********************/
+.competances {
+  background-color: black;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+.competances .container h1 {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 40px;
+  margin-top: 40px;
+}
+.competances .container .row .ser1 {
+  border-right: 1px solid #F7B940;
+  border-bottom: 1px solid #F7B940;
+}
+.competances .container .row .ser1:hover {
+  background-color: #F7B940;
+}
+.competances .container .row .ser1 .text {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+.competances .container .row .ser1 p {
+  font-size: 15px;
+  font-weight: 500px;
+  color: aliceblue;
+}
+.competances .container .ser2 {
+  border-bottom: 1px solid #F7B940;
+}
+.competances .container .ser2:hover {
+  background-color: #F7B940;
+}
+.competances .container .ser2 .text {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+.competances .container .ser2 p {
+  font-size: 15px;
+  font-weight: 500px;
+  color: aliceblue;
+}
+.competances .container .ser3 {
+  border-right: 1px solid #F7B940;
+}
+.competances .container .ser3:hover {
+  background-color: #F7B940;
+}
+.competances .container .ser3 .text {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+.competances .container .ser3 p {
+  font-size: 15px;
+  font-weight: 500px;
+  color: aliceblue;
+}
+.competances .container .ser4:hover {
+  background-color: #F7B940;
+}
+.competances .container .ser4 .text {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+.competances .container .ser4 p {
+  font-size: 15px;
+  font-weight: 500px;
+  color: aliceblue;
+}
+
+/* ****************** Footer css ********************* */
+.footer {
+  display: flex;
+  background-color: black;
+  /* ****************** Footer css 
+  .footer-map { 
+    width: 32%;
+    padding:30px ;
+
+    iframe { 
+      border-radius: 10px;
+
+    }
+  }
+  ********************* */
+}
+.footer .footer-logo {
+  float: left;
+  width: 50%;
+}
+.footer .footer-logo img {
+  width: 140px;
+  height: 140px;
+  margin: 30px 70px;
+}
+.footer .footer-info {
+  margin-top: 10px;
+  color: white;
+  width: 40%;
+}/*# sourceMappingURL=services.css.map */
